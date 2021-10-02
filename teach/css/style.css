@@ -1,0 +1,27 @@
+ol li:nth-child(3n+1){
+  color: blue;
+}
+table{
+  border: solid red 1px;
+}
+td{
+  border: solid blue 1px;
+  width: 30px;
+}
+tr:nth-child(2n){
+  background-color: black;
+  color: white;
+}
+td:nth-child(2n){
+  background-color: black;
+  color: white;
+}
+tr:nth-child(2n+1) td:nth-child(2n+1):hover {
+  background-color: lightgreen;
+}
+td:nth-child(2n):hover {
+  background-color: lightblue;
+}
+tr:nth-child(2n):hover{
+  background-color: lightblue;
+}

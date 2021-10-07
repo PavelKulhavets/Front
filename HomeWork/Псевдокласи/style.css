@@ -1,0 +1,87 @@
+h2{
+  color: green;
+}
+h2:first-letter{
+  color: red;
+}
+h3::first-line{
+  color: lightgreen;
+}
+h3:first-letter{
+  color: red;
+}
+h3:nth-child(2){
+  font-weight: bold;
+  font-style: italic;
+}
+td:hover{
+  background-color: orange;
+  border: 2px colid red;
+}
+tr:hover{
+  background: red;
+}
+td:hover{
+  background-color: orange;
+  border: 2px solid red;
+}
+tr:nth-child(2n+1):hover{
+  background-color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+a:focus{
+  color: green;
+}
+.bottom{
+  position: relative;
+  top: 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+  color: blue;
+  font-size: 24px;
+  background-color: lightblue;
+}
+.bottom:hover{
+  text-decoration: none;
+  background-color:#F94E1E;
+  color: #840A05;
+  border: 5px solid #B70802;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bottom:active{
+  text-decoration: none;
+  background-color:#F94E1E;
+  color: #840A05;
+  border: 8px solid #B70802;
+  border-radius: 5px;
+  cursor: pointer;
+}
+textarea{
+  background-color: black;
+}
+textarea:hover{
+  border: 2px solid red;
+  color: white;
+}
+
+.contact{
+  display: block;
+  margin: 10px;
+}
+.contact input{
+  margin: 5px 10px;
+}
+.contact label{
+  color: green;
+}
+.contact label::first-letter{
+  color: blue;
+}

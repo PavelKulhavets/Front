@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.width{
+  max-width: 700px;
+  background-color: lightgreen;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+header{
+  text-align: center;
+}
+h1{
+  padding: 25px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+nav li{
+   list-style-type: none;
+}
+main{
+}

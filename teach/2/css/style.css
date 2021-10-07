@@ -1,0 +1,14 @@
+h2{
+  text-align: center;
+  color: #FF0000;
+}
+.header{
+  font-style: italic;
+  color: green;
+}
+.text{
+  color: lightgreen;
+}
+body{
+  background-color: orange;
+}
